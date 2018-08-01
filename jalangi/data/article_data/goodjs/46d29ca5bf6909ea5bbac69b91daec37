@@ -1,0 +1,16 @@
+
+<!--
+	// Set auto-resizing
+	Libero.Stash.extractSummary = { max_length: 13, min_width: 20 + document.getElementById('l_header_topbar_left').clientWidth + document.getElementById('l_header_topbar_right').clientWidth, elem: 'l_username' };
+
+	// Run on load
+	Libero.HF.adjust800(Libero.Stash.extractSummary);
+	
+	// Add onresize handlers 
+	if ( window.addEventListener ) {
+		window.addEventListener('resize', function() { Libero.HF.adjust800(Libero.Stash.extractSummary) }, 1);
+	} 
+	else if (window.attachEvent) {
+		window.attachEvent('onresize', function() { Libero.HF.adjust800(Libero.Stash.extractSummary) });
+	}
+-->

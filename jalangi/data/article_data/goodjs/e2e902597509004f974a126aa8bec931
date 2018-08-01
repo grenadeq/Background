@@ -1,0 +1,6 @@
+
+	// <![CDATA[
+	var ecd = {};
+	ecd.jq = jQuery.noConflict(false);
+	//]]>
+ 

@@ -1,0 +1,4 @@
+
+//<![CDATA[
+var sealServer=document.location.protocol+"//seals.websiteprotection.com/sealws/52f70da9-270c-481e-821e-695acbdd56cb.gif";var certServer=document.location.protocol+"//certs.websiteprotection.com/sealws/?sealId=52f70da9-270c-481e-821e-695acbdd56cb";var hostName="ericscottradio.com";document.write(unescape('<div style="text-align:center;margin:0 auto;"><a target="_blank" href="'+certServer+'&pop=true" style="display:inline-block;"><img src="'+sealServer+'" alt="Website Protection&#153; Site Scanner protects this website from security threats." title="This Website Protection site seal is issued to '+ hostName +'. Copyright &copy; 2014, all rights reserved."oncontextmenu="alert(\'Copying Prohibited by Law\'); return false;" border="0" /></a>'));
+//]]>

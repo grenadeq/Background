@@ -1,0 +1,3 @@
+
+        {"queue": "cfg-ready-queue", "modname": "ShoppingCart", "args": ["js-shopping-cart-button-container", "shopping_cart_bigl_mode"], "type": "csm", "singleton": false}
+        

@@ -1,0 +1,9 @@
+
+FB.init({
+appId  : '1519568188348204',
+status : true, // check login status
+cookie : true, // enable cookies to allow the server to access the session
+xfbml  : true, // parse XFBML
+channelUrl : 'http://svenska-lexikon.se/channel.html', // channel.html file
+oauth  : true // enable OAuth 2.0
+});

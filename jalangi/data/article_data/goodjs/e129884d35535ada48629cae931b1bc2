@@ -1,0 +1,6 @@
+
+        window.onload = function()
+        {
+            document.getElementById("infofenster").style.visibility = "visible";
+        };
+    

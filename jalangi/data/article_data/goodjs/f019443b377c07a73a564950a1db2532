@@ -1,0 +1,61 @@
+
+//<![CDATA[ 
+vmSiteurl = 'http://wheeler-ukraine.com/wheelershop/' ;
+vmLang = "";
+Virtuemart.addtocart_popup = '1' ; 
+vmCartText = '??????? ???? ????????? ?? ????????.' ;
+vmCartError = '???????? ??????????? ????????' ;
+loadingImage = '/wheelershop/components/com_virtuemart/assets/images/facebox/loading.gif' ;
+closeImage = '/wheelershop/components/com_virtuemart/assets/images/fancybox/fancy_close.png' ; 
+usefancy = false
+//]]>
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+	jQuery(document).ready(function($) {
+		$('a.ask-a-question').click( function(){
+			$.facebox({
+				iframe: '/wheelershop/index.php/wheeler/pro-50-m-comfort-detail/askquestion?tmpl=component',
+				rev: 'iframe|550|550'
+			});
+			return false ;
+		});
+	/*	$('.additional-images a').mouseover(function() {
+			var himg = this.href ;
+			var extension=himg.substring(himg.lastIndexOf('.')+1);
+			if (extension =='png' || extension =='jpg' || extension =='gif') {
+				$('.main-image img').attr('src',himg );
+			}
+			console.log(extension)
+		});*/
+	});
+
+jQuery(document).ready(function() {
+	jQuery("a[rel=vm-additional-images]").fancybox({
+		"titlePosition" 	: "inside",
+		"transitionIn"	:	"elastic",
+		"transitionOut"	:	"elastic"
+	});
+});
+
+//<![CDATA[
+jQuery(document).ready(function() {
+		jQuery('#VMmenu674_3473 li.VmClose ul').hide();
+		jQuery('#VMmenu674_3473 li .VmArrowdown').click(
+		function() {
+
+			if (jQuery(this).parent().next('ul').is(':hidden')) {
+				jQuery('#VMmenu674_3473 ul:visible').delay(500).slideUp(500,'linear').parents('li').addClass('VmClose').removeClass('VmOpen');
+				jQuery(this).parent().next('ul').slideDown(500,'linear');
+				jQuery(this).parents('li').addClass('VmOpen').removeClass('VmClose');
+			}
+		});
+	});
+//]]>
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(3540000); });
+  

@@ -1,0 +1,5 @@
+for file in `find jalangi2/tests/pldi16/data/data/mixbadjs/`
+do
+node jalangi2/src/js/commands/jalangi.js --inlineIID --inlineSource --analysis jalangi2/src/js/sample_analyses/ChainedAnalyses.js --analysis jalangi2/src/js/runtime/SMemory.js --analysis jalangi2/src/js/sample_analyses/pldi16/myTrace.js ${file} >> .jalangi2/tests/pldi16/data/data/log/log1.txt 
+done
+

@@ -1,0 +1,9 @@
+
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>

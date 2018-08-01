@@ -1,0 +1,11 @@
+
+if(document.getElementById){
+onload= function(){
+	setGalleryImageWindow();
+	P7_TMclass();
+	P7_TMopen();
+
+		initbox();
+	}//end function
+}
+//

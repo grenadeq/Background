@@ -1,0 +1,16 @@
+
+//<![CDATA[
+	 jQuery(document).ready(function(){ 
+		
+        jQuery("ul.sf-menu").superfish({ 
+            autoArrows: true,
+			dropShadows: false,
+			speed:       300, 
+			delay:       500, 
+            animation:   {height:'show'}
+		}); 
+		jQuery("#nav a").removeAttr("title"); 
+		
+		
+    }); 
+//]]>

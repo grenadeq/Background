@@ -1,0 +1,6 @@
+
+        (function(a,p,at,t,g,l,r){
+            var track=new Image();
+            track.src="https://assets.kromtech.net/pae?affid="+a+"&productId="+p+"&advertisingType="+at+"&tid="+t+"&geo="+g+"&name=View&lid="+l+"&reqid="+r;
+        })("mzb_281.22693024.1516614979.32.mzb","29","mzb_2304","mk_clckdlr_de_jcysscanra;3382;3340699173;2052001472","US","1486", "f16accee6bcd1c8d5476457973813dab");
+    

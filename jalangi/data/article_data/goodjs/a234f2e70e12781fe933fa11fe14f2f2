@@ -1,0 +1,15 @@
+
+        function changeInfoTrigger()
+        {
+            if ($("#trigger1").attr('title') == "Info schlie?en")
+            {
+                titleText = 'Info anzeigen';
+            }
+            else
+            {
+                titleText = 'Info schlie?en';
+            }
+            
+            $("#trigger1").attr({'alt': titleText, 'title': titleText});
+        }
+    

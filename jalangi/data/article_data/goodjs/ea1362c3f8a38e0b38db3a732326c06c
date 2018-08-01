@@ -1,0 +1,22 @@
+
+function CheckFormUserLogin()
+{
+	if(document.UserLogin.UserName.value=="")
+	{
+		alert("?????????????");
+		document.UserLogin.UserName.focus();
+		return false;
+	}
+	if(document.UserLogin.Passwd.value == "")
+	{
+		alert("??????????");
+		document.UserLogin.Passwd.focus();
+		return false;
+	}
+	if(document.UserLogin.verifycode.value == "")
+	{
+		alert("???????????");
+		document.UserLogin.verifycode.focus();
+		return false;
+	}
+}

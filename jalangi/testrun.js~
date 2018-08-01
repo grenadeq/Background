@@ -1,0 +1,10 @@
+var callfile = require('child_process'); 
+
+callfile.execFile('./run1.sh',null,function (err, stdout, stderr) {
+    if (err!== null) {
+          console.log('exec error: ' + err);
+        }
+    else
+	   console.log('stdout:'+stdout);
+
+});

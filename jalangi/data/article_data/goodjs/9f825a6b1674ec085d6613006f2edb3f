@@ -1,0 +1,2 @@
+
+setTimeout("dismissbox()", 8000);
